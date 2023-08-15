@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f4d2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #d4e09e;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background-color: #f19c79;
+    color: rgb(22, 42, 26);
+  }
+
+  .button-primary:hover {
+    background-color: #d4e09e;
+    transition: 1s;
+  }
+  
+  .button-secondary {
+    background-color: #a44a3f;
+    color: rgb(22, 42, 26);
+  }
+
+  .button-secondary:hover {
+    background-color: #d4e09e;
+    transition: 1s;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cbdfbd;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f19c79;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #a44a3f;
+  }
+  
+  .error-message {
+    color: #a44a3f;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: #d4e09e;
+    margin-top: 5px;
+  }
+  
+  .login-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    background-color: #cbdfbd;
+    color: #a44a3f;
+  }
+  
+  .back-button:hover {
+    background-color: #a44a3f;
+    color: #cbdfbd;
+  }
+  
+  .sign-out-button {
+    background-color: #d4e09e;
+    color: #a44a3f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sign-out-button:hover {
+    background-color: #a44a3f;
+    color: #d4e09e;
+  }
+  
